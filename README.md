@@ -1,5 +1,5 @@
 # non_linear_graph_coarsening
-Worked under our professor to improve upon the work done by him in his research paper, "Featured Graph Coarsening with Similarity Guarantees".
+Worked under a professor to improve upon the work done by him in his research paper, "Featured Graph Coarsening with Similarity Guarantees".
 1) Incorporated train-validation-testing split of the dataset to be able to perform testing on benchmark datasets like Cora and Citeseer.
 Used masking approach for splitting the graph dataset. why? -> because this makes sure that edges/links between nodes of different splits are maintained. This means that an edge between a node belonging to train set and other node belonging to test set will not be ignored during computations.
 2) Added non-linearity in the graph coarsening process to improve accuracy.
